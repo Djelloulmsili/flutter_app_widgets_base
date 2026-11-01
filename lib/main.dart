@@ -57,6 +57,17 @@ class MainApp extends StatelessWidget {
                       ),
                     ],
                   ),
+                  const SizedBox(height: 20),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: const [
+                      Icon(Icons.home, color: Colors.blue, size: 40),
+                      Icon(Icons.star, color: Colors.amber, size: 40),
+                      Icon(Icons.settings, color: Colors.grey, size: 40),
+                      Icon(Icons.favorite, color: Colors.red, size: 40),
+                    ],
+                  ),
                 ],
               ),
             ),
