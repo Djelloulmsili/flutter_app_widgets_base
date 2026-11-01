@@ -38,6 +38,25 @@ class MainApp extends StatelessWidget {
                   ),
                   const SizedBox(height: 8),
                   const Text('Je découvre les widgets Flutter.'),
+                  const SizedBox(height: 20),
+                  Stack(
+                    alignment: Alignment.center,
+                    children: [
+                      Container(
+                        width: 200,
+                        height: 200,
+                        color: Colors.blue[100],
+                      ),
+                      const Icon(Icons.star, size: 100, color: Colors.amber),
+                      const Text(
+                        'Superposé !',
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
                 ],
               ),
             ),
